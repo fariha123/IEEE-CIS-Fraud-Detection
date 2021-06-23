@@ -12,7 +12,7 @@ An [EDA(Exploratory Data Analysis)](https://github.com/fariha123/IEEE-CIS-Fraud-
 The model is a four layer desnse connected with 50% dropout and batch normalization on final layer. For activation method of hidden layer ReLu is used to avoid any negative values and sigmoid in the final layer to find out the probability of the fraundent. 
 ![Test Image 2](https://github.com/fariha123/IEEE-CIS-Fraud-Detection/blob/main/model.png)
 
-The model showed 0.844748 accuracy on public score kaggle.    
+The model showed 0.844748 accuracy on public score kaggle.[Notebook](https://www.kaggle.com/fariha123/ieee-cis-basic-approach-dnn?scriptVersionId=65740617)   
 
 ![Test Image 1](https://github.com/fariha123/IEEE-CIS-Fraud-Detection/blob/main/Kaggle%20score.png)
 
