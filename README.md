@@ -9,7 +9,7 @@ In this project, A Deep Learning model Multi Layer Perceptron is introduced to d
 
 An [EDA(Exploratory Data Analysis)](https://github.com/fariha123/IEEE-CIS-Fraud-Detection/blob/main/EDA%20for%20IEEE%20CIS%20Fraud%20Detection.ipynb) showing the train, test data distribution and feature similarity. In addition to that, both of the dataset has missing values ranging from (0.1 - 0.99)% in both categorical and numerical features. For feature Selection, Feature columns with similar prefix are taken in groups and shown the correlation with target feature [isFraud]. Some of the highly correlated features are not relateable with the both dataset so those features were eleminated.Features with similar missing value percentage and Prefix are taken to measure correlation with target feature and redundant features were eleminated.Total 186 feature columns are selected where missing values are handled with mean and most frequent features accordingly.
 
-The model is a four layer desnse connected with 50% dropout and batch normalization on final layer. For activation method of hidden layer ReLu is used to avoid any negative values and sigmoid in the final layer to find out the probability of the fraundent. 
+The model is a four layer desnse connected with 50% dropout and batch normalization on final layer. For activation method of hidden layer ReLu is used to avoid any negative values and sigmoid in the final layer to find out the probability of the fraudulent. 
 ![Test Image 2](https://github.com/fariha123/IEEE-CIS-Fraud-Detection/blob/main/model.png)
 
 The model showed 0.844748 accuracy on public score kaggle.[Notebook](https://www.kaggle.com/fariha123/ieee-cis-basic-approach-dnn?scriptVersionId=65740617)   
