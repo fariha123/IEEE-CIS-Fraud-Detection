@@ -13,7 +13,7 @@ The model is a four layer desnse connected with 50% dropout and batch normalizat
 
 The model showed 0.844748 accuracy on public score kaggle.    
 
-[!Kaggle Score](Kaggle score.png)
+[!Kaggle Score](https://github.com/fariha123/IEEE-CIS-Fraud-Detection/blob/main/Kaggle%20score.png)
 
 
 
